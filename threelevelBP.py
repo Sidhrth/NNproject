@@ -47,8 +47,8 @@ class Neural_Network(object):
     
     
     #optimizing weights
-    self.W1 += X.T.dot(self.z2_delta) # adjusting first set (input --> hidden) weights
-    self.W2 += self.z2.T.dot(self.o_delta) # adjusting second set (hidden --> output) weights
+    self.W1 += X.T.dot(self.z2_delta)
+    self.W2 += self.z2.T.dot(self.o_delta)
 
   def train (self, X, y):
     o = self.forward(X)
@@ -59,6 +59,6 @@ for i in xrange(1000):
   print "Input: \n" + str(X) 
   print "Actual Output: \n" + str(y) 
   print "Predicted Output: \n" + str(NN.forward(X)) 
-  print "Loss: \n" + str(np.mean(np.square(y - NN.forward(X)))) # mean sum squared loss
+  print "Loss: \n" + str(np.mean(np.square(y - NN.forward(X))))
   print "\n"
   NN.train(X, y)  
