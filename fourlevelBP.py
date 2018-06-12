@@ -46,10 +46,10 @@ class Neural_Network(object):
   def backward(self, X, y, o):
     self.o_error = y - o 
     self.o_delta = self.o_error*self.sigmoidPrime(o)
-    self.z2_error = self.o_delta.dot(self.W2.T)
-    self.z2_delta = self.z2_error*self.sigmoidPrime(self.z2)
     self.z3_error = self.o_delta.dot(self.W3.T)
     self.z3_delta = self.z3_error*self.sigmoidPrime(self.z3)
+    self.z2_error = self.z3_delta.dot(self.W2.T)
+    self.z2_delta = self.z2_error*self.sigmoidPrime(self.z2)
     
     
     #optimizing weights
