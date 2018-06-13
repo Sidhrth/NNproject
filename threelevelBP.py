@@ -40,7 +40,7 @@ class Neural_Network(object):
 
     #backpropagation
   def backward(self, X, y, o):
-    self.o_error = y - o 
+    self.o_error = y - o                                   #??? reason 
     self.o_delta = self.o_error*self.sigmoidPrime(o)
     self.z2_error = self.o_delta.dot(self.W2.T)
     self.z2_delta = self.z2_error*self.sigmoidPrime(self.z2)
