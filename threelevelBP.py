@@ -40,7 +40,7 @@ class Neural_Network(object):
 
     #backpropagation
   def backward(self, X, y, o):
-    self.o_error = y - o                                   #??? reason 
+    self.o_error = y - o                                   #??? reason. should be  error =  o - y
     self.o_delta = self.o_error*self.sigmoidPrime(o)
     self.z2_error = self.o_delta.dot(self.W2.T)
     self.z2_delta = self.z2_error*self.sigmoidPrime(self.z2)
@@ -60,5 +60,6 @@ for i in xrange(1000):
   print "Actual Output: \n" + str(y) 
   print "Predicted Output: \n" + str(NN.forward(X)) 
   print "Loss: \n" + str(np.mean(np.square(y - NN.forward(X))))
+  print "accuracy: \n" + str(1-(np.mean(np.square(y - NN.forward(X)))))
   print "\n"
   NN.train(X, y)  

@@ -1,17 +1,10 @@
 import tensorflow as tf
 
-#to remove warnings
-old_v = tf.logging.get_verbosity()
-tf.logging.set_verbosity(tf.logging.ERROR)
-
-#read input data
-from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 #number of layers and how many nodes in a layer
-node_hl1 = 700
-node_hl2 = 700
-node_hl3 = 700
+node_hl1 = 500
+node_hl2 = 500
+node_hl3 = 500
 
 #output size and batch size
 n_classes = 10
