@@ -9,9 +9,9 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 #number of layers and how many nodes in a layer
-node_hl1 = 700
-node_hl2 = 700
-node_hl3 = 700
+node_hl1 = 100
+node_hl2 = 100
+node_hl3 = 100
 
 #output size and batch size
 n_classes = 10
@@ -35,7 +35,6 @@ def neuralnetmodel(data):
     output_layer = {'weights':tf.Variable(tf.random_normal([node_hl3,n_classes])),'biases':tf.Variable(tf.random_normal([n_classes]))}
 
     #forward propagation
-
     l1 = tf.add(tf.matmul(data, hidden_layer1['weights']), hidden_layer1['biases'])
     l1 = tf.nn.relu(l1)
 
@@ -56,7 +55,7 @@ def train_nn(x):
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits =prediction,labels = y))
     optimizer = tf.train.AdamOptimizer().minimize(cost)
 
-    hm_epochs = 40
+    hm_epochs = 10
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
