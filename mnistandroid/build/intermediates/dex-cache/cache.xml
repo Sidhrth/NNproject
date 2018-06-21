@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/5fe4d7d65f26b971cb148a92507db72212e0967a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c64ed6a9011fc9ef11b3cad9e9596c41fd47ebe2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/democodes/mnistandroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_affe19aaec6dbf119f331139050eba37c423dc31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/e8c15a847d49b2b6bfe0c89bee35b92359ee1638/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0f9fce3d38067dc78a45462b06e80e2d6a9fc0a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/5fe4d7d65f26b971cb148a92507db72212e0967a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_c64ed6a9011fc9ef11b3cad9e9596c41fd47ebe2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/8cdedb9d917f9e513b3297a3059194f45f12b0c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07d9955e3bd666452d9a18b9a0f40ceabdab0b71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/f054cd592884f14ac8ba2cca7139bae9fc86a7c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a6e632ebab3e4015a6a7cf913380842efcb6005/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/8cdedb9d917f9e513b3297a3059194f45f12b0c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_07d9955e3bd666452d9a18b9a0f40ceabdab0b71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/e6d642ecea907206f48f475b1c92ce0274c2b27d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_51cbf9d1ae35b45107c248da428e8721b8ca1644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/efe9d371dd41f7839fa55fa75b308083b30ac44f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_bd1beb83004c0fc8b8bb275677d907ef2770cdd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/f054cd592884f14ac8ba2cca7139bae9fc86a7c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_2a6e632ebab3e4015a6a7cf913380842efcb6005.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/9e17c868a87aa67dacfb8adee973d8490c844116/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0a660b889927aebeeb70b7f704ca8e2a723082e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/efe9d371dd41f7839fa55fa75b308083b30ac44f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd1beb83004c0fc8b8bb275677d907ef2770cdd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/da8523461ef90c418881cd0d0aa8df910a609579/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_5a075122b7ff62ddfec609055bc7e305458b1e37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/9e17c868a87aa67dacfb8adee973d8490c844116/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_f0a660b889927aebeeb70b7f704ca8e2a723082e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/da8523461ef90c418881cd0d0aa8df910a609579/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a075122b7ff62ddfec609055bc7e305458b1e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_dd1511fd2abaea32b77d8b2ebad88cc34aeaf99b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/e6d642ecea907206f48f475b1c92ce0274c2b27d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51cbf9d1ae35b45107c248da428e8721b8ca1644/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_dd1511fd2abaea32b77d8b2ebad88cc34aeaf99b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/6a38a9896ae6164e5ebe2ca52179bcd542107f41/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08b7bb0240c9df70b9af7c07496023df477d2640">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b361027fa101a61bf631cdc69aa51e17e36708fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/30246db7d8fb9622cd61ae09484f05c2c6dccc8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_a4ad4e1c8bc3bd1d6bec5571e29a923521d07d87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/e8c15a847d49b2b6bfe0c89bee35b92359ee1638/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_0f9fce3d38067dc78a45462b06e80e2d6a9fc0a7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/.android/build-cache/30246db7d8fb9622cd61ae09484f05c2c6dccc8e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4ad4e1c8bc3bd1d6bec5571e29a923521d07d87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/cui/democodes/mnistandroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b5a96a5b8ad6fa6bb201a8997e919414682f326">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c811e4a9fd1fb7ebd91a4c2c5be257463ef926dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cui/.android/build-cache/6a38a9896ae6164e5ebe2ca52179bcd542107f41/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08b7bb0240c9df70b9af7c07496023df477d2640">
+        <dex dex="/home/cui/democodes/mnistandroid/app/build/intermediates/pre-dexed/debug/classes_b361027fa101a61bf631cdc69aa51e17e36708fc.jar" />
+    </item>
+
+</items>

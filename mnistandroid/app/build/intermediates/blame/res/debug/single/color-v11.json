@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/cui/democodes/mnistandroid/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/cui/.android/build-cache/e8c15a847d49b2b6bfe0c89bee35b92359ee1638/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/cui/democodes/mnistandroid/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/cui/.android/build-cache/e8c15a847d49b2b6bfe0c89bee35b92359ee1638/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
