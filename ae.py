@@ -107,7 +107,7 @@ with tf.Session() as sess:
         _, l = sess.run([optimizer, loss], feed_dict={X: batch_x})
         # Display logs per step
         if i % display_step == 0 or i == 1:
-            print('Step %i: Minibatch Loss: %f' % (i, l))
+            print('Step %i: Loss: %f' % (i, l))
 
     # Testing
     # Encode and decode images from test set and visualize their reconstruction.

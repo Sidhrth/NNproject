@@ -1,7 +1,0 @@
-#Thu Jun 21 12:00:09 CEST 2018
-base.0=/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c811e4a9fd1fb7ebd91a4c2c5be257463ef926dc
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_affe19aaec6dbf119f331139050eba37c423dc31/classes.dex
-base.1=/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_affe19aaec6dbf119f331139050eba37c423dc31
-file.0=/home/cui/democodes/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c811e4a9fd1fb7ebd91a4c2c5be257463ef926dc/classes.dex
