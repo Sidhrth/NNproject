@@ -13,9 +13,14 @@ import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import org.opencv.android.OpenCVLoader;
+import org.opencv.android.Utils;
+import org.opencv.core.Mat;
 
 import java.io.File;
 
@@ -24,6 +29,19 @@ public class MainActivity extends AppCompatActivity {
     ImageView imgview;
     Button cambutton;
     static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final String TAG = "MyApp";
+    private PreProcessing mImgProcessor = new PreProcessing();
+
+    //Initialize open cv
+    static {
+        if(OpenCVLoader.initDebug()) {
+            Log.d(TAG,"OpenCV Successfully Loaded");
+        }
+        else {
+            Log.d(TAG,"OpenCV Load Not Successfully");
+        }
+    }
+
 
 
     @Override
@@ -52,11 +70,21 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
-            Bitmap greyBM = toGrayscale(imageBitmap);
-            imgview.setImageBitmap(greyBM);
+            Bitmap originalBitmap = (Bitmap) extras.get("data");
+
+            Mat imgToProcess = mImgProcessor.preProcessImage(imageBitmap);
+            Bitmap.createScaledBitmap(imageBitmap,imgToProcess.width(),imgToProcess.height(),false);
+            Bitmap.createScaledBitmap(originalBitmap,imgToProcess.width(),imgToProcess.height(),false);
+            Utils.matToBitmap(imgToProcess.clone(),imageBitmap);
+            imgview.setImageBitmap(imageBitmap);
+
+
+
         }
     }
 
+    // Greyscale conversion shifted to PreProcessing file
+    /*
     public Bitmap toGrayscale(Bitmap bmpOriginal)
     {
         int width, height;
@@ -73,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         c.drawBitmap(bmpOriginal, 0, 0, paint);
         return bmpGrayscale;
     }
+
+    */
 
 
 }
