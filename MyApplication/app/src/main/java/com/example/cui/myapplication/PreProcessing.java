@@ -29,8 +29,6 @@ public class PreProcessing {
     //NumberToWordConv mNumConverter = new NumberToWordConv();                     ------ removed by me
 
 
-    // Amplify the region of interest by making the number bright and
-    // background black. This removes noise due to shadows / insufficient lighting.
     public Mat preProcessImage(Bitmap image) {
         Size sz = new Size(640, 480);
         ArrayList<Rect> rects;
@@ -64,8 +62,20 @@ public class PreProcessing {
         Core.subtract(imgGrayInv,imgToProcess,imgGrayInv);
         Imgproc.Canny(imgToProcess,imgToProcessCanny,13,39,3,false);
 
+
         rects = this.boundingBox(imgToProcessCanny);
         Log.d(TAG,"Length of rects : " + rects.size());
+
+        int erosion_size = 3;
+        int dilation_size = 5;
+        Mat element = Imgproc.getStructuringElement(Imgproc.MORPH_RECT,new  Size(2*erosion_size + 1, 2*erosion_size+1));
+        int p = 10;
+        while(p!= 0) {
+            Imgproc.dilate(tempImageMat, tempImageMat, element);
+            Imgproc.erode(tempImageMat, tempImageMat, element);
+            p=p-1;
+        }
+
 
         if (rects.size() != 0) {
             rect = rects.get(0);
@@ -89,8 +99,7 @@ public class PreProcessing {
                 }
             }
 
-            // Using the algorithm in the following paper to get the region of interest
-            //http://web.stanford.edu/class/cs231m/projects/final-report-yang-pu.pdf
+
 
             Mat aux = tempImageMat.colRange(left, right).rowRange(top, bottom);
             MatOfDouble matMean = new MatOfDouble();
